@@ -16,4 +16,4 @@ const allBears = (newBear) => {
 
 //send array out 
 
-export default {  getBears,allBears };
+export default {  getBears, allBears };

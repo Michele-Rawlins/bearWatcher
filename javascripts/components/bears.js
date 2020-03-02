@@ -1,16 +1,14 @@
- import getBears from '../helpers/data/bearData.js';
  import cardBears from './river.js';
+ import bearData from '../helpers/data/bearData.js';
 
  
 
  const addBear = (e) => {
     console.log("hello");
-e.preventDefault();
+    e.preventDefault();
      const bearName = document.getElementById('bear-name').value;
      const bearImage = document.getElementById('bear-image').value;
-     const bearId = e.target.id;
-
-     getBears.allBears({name: bearName, image: bearImage});
+     bearData.allBears({name: bearName, image: bearImage});
      cardBears.cardBears();
      document.getElementById('new-bear').reset();
   };
