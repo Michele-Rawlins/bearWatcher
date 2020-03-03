@@ -3,4 +3,26 @@ body {
 }
 .title {
     text-align: center;
+    border: double black;
+    background-color: cornflowerblue;
+}
+
+.card {
+
+    background-color: rgb(235, 235, 240);
+}
+#bear-name {
+
+text-decoration-color: brown;
+border: black solid;
+margin: 50px;
+
+}
+
+#bear-image {
+    text-decoration-color: blueviolet;
+    border: black solid;  
+    margin: 50px;
+    padding: 25px;
+    
 }
