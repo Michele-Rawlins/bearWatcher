@@ -8,7 +8,7 @@ const cardBears = ()=> {
     const bearDom = bearData.getBears();
     let domstring="";
     bearDom.forEach((bearsarr) => {
-        domstring += '<div class = "d flex flex-wrap">';
+        domstring += '<div class = "d-flex flex-wrap">';
         domstring += '<div class="card" style="width: 18rem;">';
         domstring += `<img src="${bearsarr.image}"class="card-img-top" alt="...">`;
         domstring += '<div class="card-body">';
