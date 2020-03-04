@@ -3,7 +3,7 @@
 This project is an exploration into modules for javascript.  I used  cards to display a collection of cards.  I played around with some css styling
 
 ## Screen shots
-![Main Screen](./screenshots/bearWatcher.png)
+![Main Screen](./screenshots/BearWatcher.png)
 
 
 ## Instructions how to run
